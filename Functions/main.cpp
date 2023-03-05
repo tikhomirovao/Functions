@@ -1,7 +1,7 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
-int Sum(int a, int b); // Прототип функции(Объявление функции)
+int Sum(int a, int b); // РџСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё(РћР±СЉСЏРІР»РµРЅРёРµ С„СѓРЅРєС†РёРё)
 int Difference(int a, int b);
 int Product(int a, int b);
 double Quotient(double a, double b);
@@ -13,8 +13,8 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int a, b;
-	cout << "Введите два числа: "; cin >> a >> b;
-	int c = Sum(a, b); // Использование функции(Вызов функции)
+	cout << "Р’РІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р°: "; cin >> a >> b;
+	int c = Sum(a, b); // РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С„СѓРЅРєС†РёРё(Р’С‹Р·РѕРІ С„СѓРЅРєС†РёРё)
 	cout << a << " + " << b << " = " << c << endl;
 	cout << a << " - " << b << " = " << Difference(a,b) << endl;
 	cout << a << " * " << b << " = " << Product(a,b) << endl;
@@ -23,7 +23,7 @@ void main()
 	cout << a << " ! " << " = " << Factorial(a) << endl;
 	cout << a << " ^ " << b << " = " << Power(a,b) << endl;
 }
-int Sum(int a, int b) // Реализация функции(Определение функции)
+int Sum(int a, int b) // Р РµР°Р»РёР·Р°С†РёСЏ С„СѓРЅРєС†РёРё(РћРїСЂРµРґРµР»РµРЅРёРµ С„СѓРЅРєС†РёРё)
 {
 	return a + b;
 }
